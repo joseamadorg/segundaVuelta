@@ -1,0 +1,44 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: Roboto;
+}
+
+/*SERVICIOS SIN BS*/
+
+.servicios {
+    padding: 2.5rem;
+}
+
+.servicios__contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.servicio__imagen{
+    width: 100%;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media  screen and (max-width: 768px) {
+    .servicios__contenedor{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+   
+}
